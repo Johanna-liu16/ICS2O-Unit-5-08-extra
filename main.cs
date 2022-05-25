@@ -25,7 +25,6 @@ class Program
             remainder = num - counter2;
             answer = answer + 1;
         }
-        
 
         Console.WriteLine("The answer is: " + counter1 + " ÷ " + counter2 + " = " + answer + " " + "The remainder is " + remainder);
         Console.Write("\nDone.");
