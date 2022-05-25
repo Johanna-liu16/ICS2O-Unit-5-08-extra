@@ -21,6 +21,7 @@ class Program
         counter2 = Convert.ToInt32(Console.ReadLine());
 
             for (int num = counter1; num > counter2; num = num - counter2) {
+                remainder = num - counter2;
                 answer = answer + 1;
             }
         
