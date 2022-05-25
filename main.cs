@@ -23,14 +23,7 @@ class Program
             for (int num = counter1; num > counter2; num = num - counter2) {
                 answer = answer + 1;
             }
-
-        for(int num = counter1; num > counter2; num = num - counter2){
-        if (num == 0) {
-            remainder = 0;
-        } else if (answer != 0) {
-            remainder = answer;
-        }
-        }
+        
 
         Console.WriteLine("The answer is: " + counter1 + " ÷ " + counter2 + " = " + answer + " " + "The remainder is " + remainder);
         Console.Write("\nDone.");
